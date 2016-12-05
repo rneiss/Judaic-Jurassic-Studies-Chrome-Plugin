@@ -1,0 +1,17 @@
+{
+"manifest_version": 2,
+    "name": "Judaic/Jurassic Studies",
+    "description": "A chrome extension that replaces all instances of 'Judaic Studies' with 'Jurassic Studies' -- H/T Matthue Roth: https://twitter.com/matthue/status/805619151037497344",
+    "version": "1.0",
+    "content_scripts": [
+        {
+            "matches": [
+                "*://*/*"
+            ],
+            "js": [
+                "content.js"
+            ],
+            "run_at": "document_end"
+        }
+    ]
+}

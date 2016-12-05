@@ -1,0 +1,1 @@
+A chrome extension that replaces all instances of 'Judaic Studies' with 'Jurassic Studies' -- H/T Matthue Roth: https://twitter.com/matthue/status/805619151037497344
